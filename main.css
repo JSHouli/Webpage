@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman&display=swap');
+*{
+    font-family: 'Goldman', cursive;
+}
+
+* h1, h2, p{
+    text-align: center;
+}
+h1, h2, p{
+    color: white;
+}
+
+
+p{
+    background-color: rgb(0, 0, 0, 0.4);
+    font-size: 15px;
+    text-align: center;
+    padding: 50px;
+    border: black;
+    border-style: solid;
+    margin: 85px;
+    color: white;
+    box-shadow: 0px 0px 8px 0px;
+}
+* img {
+    color: black;
+    box-shadow: 0px 0px 15px 8px;
+}
+
+* {box-sizing: border-box; 
+    font-size: 25px;
+}
+
+
+h1, h2 {
+    background-color: rgb(0, 0, 0, 0.4);
+    font-size: 25px;
+    text-align: center;
+    padding: 50px;
+    border: black;
+    border-style: solid;
+    margin: 85px;
+    color: white;
+    box-shadow: 0px 0px 15px 8px;
+}
+
+nav {
+    background-color: rgb(0, 0, 0, 0.4);
+    display: block;
+    text-align: center
+}
+
+nav a {
+    color: white;
+    background-color: black;
+}
+
+img {
+    width: 45%;
+}
+
+.box {
+    color: rgb(0, 0, 0, 0.4);
+    font-size: 25px;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: center;
+    padding: 0px;
+    flex: 1;
+    border: 2px solid black;
+    box-shadow: 8px 0px 8px 0px;
+}
+
+
+body{
+    background: 
+      /*shape*/
+      linear-gradient(115deg, transparent 89%, #990000 0) -128px -96px,
+      linear-gradient(-115deg, transparent 89%, #5c0000 0) 22px -96px,
+      linear-gradient(-115deg, #7e0000 11%, transparent 0) -128px 54px,
+      linear-gradient(115deg, #ff00006c 11%, transparent 0) 22px 54px,
+      
+      /*shape*/
+      linear-gradient(-25deg, #7a0528 11%, transparent 0) -128px -22px,
+      linear-gradient(25deg, transparent 89%, #d81616 0) -128px 128px,
+      linear-gradient(25deg, #e700008f 11%, transparent 0) 22px -22px,
+      linear-gradient(-25deg, transparent 89%, #ff000085 0) 22px 128px,
+      /*shape*/
+      linear-gradient(-25deg, #ff0404ce 11%, transparent 0) -53px -96px,
+      linear-gradient(25deg, transparent 89%, #ca0303da 0) -53px 54px,
+      linear-gradient(25deg, #ff1e008e 11%, transparent 0) 97px -96px,
+      linear-gradient(-25deg, transparent 89%, #ff0000d0 0) 97px 54px,
+      /*shape*/
+      linear-gradient(115deg, transparent 89%, #000000  0) -53px -21px,
+      linear-gradient(-115deg, #000000 11%, transparent 0) -53px 129px,
+      linear-gradient(-115deg, transparent 89%, #000000 0) 97px -21px,
+      linear-gradient(115deg, #000000 11%, transparent 0) 97px 129px;
+      
+    background-color: rgb(0, 0, 0);
+    background-size: 150px 150px;
+    background-repeat: repeat;
+  }
+  {
+  background: repeating-radial-gradient(
+  circle,
+  purple,
+  purple 10px,
+  #4b026f 10px, 
+  #4b026f 20px
+);
